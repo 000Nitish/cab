@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(200, 200, 200);
+    min-height: 100vh;
+    background-color: rgb(237, 253, 253);
+}
+.container{
+    max-width: 50vw;
+    min-height: 40vh;
+    border: 1px solid rgb(153, 152, 152);
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+.location{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.pass_date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.time{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container label,select,input{
+    margin-bottom: 1rem;
+}
+#btn{
+    min-width: 5vw;
+    height: 5vh;
+    margin-left:20vw;
+    margin-top: 1vh;
+    padding: 0.3rem;
+    background-color: rgb(13, 185, 142);
+    color: white;
+    font-size: 1.5rem;
+    border: 1px solid rgb(128, 100, 100); 
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+select,input{
+    width: 22vw;
+    height: 5vh;
+    font-size: 1rem;
+}
+.p-d{
+    padding-left: 1rem ;
+}
+.destination{
+    margin-right: 2px;
+}
+
+.remark input{
+    width: 48vw;
+}

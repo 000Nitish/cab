@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAB Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <div class="location">
+                <div class="source">
+                    <label>Source Location</label><br>
+                    <select placeholder="Source Location" name="from" required>
+                    <option value="" disabled selected>Source Location</option>
+                    </select>
+                </div>
+                <div class="destination">
+                    <label>Source Location</label><br>
+                    <select placeholder="Destination Location" name="to" required>
+                    <option value="" disabled selected>Destination Location</option>
+                    </select>
+                </div>
+            </div>
+            <div class="pass_date">
+                <div class="passenger">
+                    <label>Number of Passenger</label><br>
+                    <input type="text" placeholder="  Number of Passenger" name="p_name" required>
+                </div>
+                <div class="date p-d">
+                    <label>Date</label><br>
+                    <input type="date" name="date" required>
+                </div>
+            </div>
+            <div class="time">
+                <div class="passenger">
+                    <label>From Time</label><br>
+                    <input type="time" name="f_time" required>
+                </div>
+                <div class="date p-d">
+                    <label>To Time</label><br>
+                    <input type="time" name="to_time" required>
+                </div>
+            </div>
+            <div class="remark">
+                <label>Remarks</label><br>
+                <input type="text" name="remarks" required rows="1"><br>
+                <button id="btn" name="button">Submit</button>
+            </div>
+        </form>
+    </div>
+    <script src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
